@@ -15,7 +15,7 @@ To generate sclite report:
 $ sclite -r deepspeech-out.ref trn -h deepspeech-out.hyp trn -i rm
 
 To generate WER report:
-wer deepspeech3-out.ref deepspeech3-out.hyp
+wer deepspeech-out.ref deepspeech-out.hyp
 
 To generate transcrip of a wav file
 deepspeech 
